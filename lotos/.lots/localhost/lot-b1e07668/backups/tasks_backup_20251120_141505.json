@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "description": "Build a task manager CLI",
+    "priority": "high",
+    "completed": true,
+    "created_at": "2025-11-20T14:02:22.814700",
+    "completed_at": "2025-11-20T14:02:24.596844"
+  },
+  {
+    "id": 2,
+    "description": "Write documentation",
+    "priority": "medium",
+    "completed": true,
+    "created_at": "2025-11-20T14:02:22.814856",
+    "completed_at": "2025-11-20T14:02:32.967773"
+  },
+  {
+    "id": 3,
+    "description": "Test the application",
+    "priority": "high",
+    "completed": true,
+    "created_at": "2025-11-20T14:02:22.814926",
+    "completed_at": "2025-11-20T14:05:08.285020"
+  },
+  {
+    "id": 4,
+    "description": "Deploy to production",
+    "priority": "low",
+    "completed": true,
+    "created_at": "2025-11-20T14:02:22.815027",
+    "completed_at": "2025-11-20T14:07:20.154589"
+  },
+  {
+    "id": 5,
+    "description": "Review code changes",
+    "priority": "high",
+    "completed": false,
+    "created_at": "2025-11-20T14:02:32.910912"
+  },
+  {
+    "id": 6,
+    "description": "Fix critical bug",
+    "priority": "high",
+    "completed": true,
+    "created_at": "2025-11-20T14:03:48.059786",
+    "completed_at": "2025-11-20T14:03:48.742637"
+  },
+  {
+    "id": 7,
+    "description": "Clean up old files",
+    "priority": "low",
+    "completed": false,
+    "created_at": "2025-11-20T14:03:48.115904"
+  },
+  {
+    "id": 8,
+    "description": "Integration test task",
+    "priority": "high",
+    "completed": false,
+    "created_at": "2025-11-20T14:04:59.604678"
+  },
+  {
+    "id": 9,
+    "description": "   ",
+    "priority": "low",
+    "completed": false,
+    "created_at": "2025-11-20T14:05:02.647935"
+  },
+  {
+    "id": 10,
+    "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "priority": "high",
+    "completed": false,
+    "created_at": "2025-11-20T14:05:02.675003"
+  },
+  {
+    "id": 11,
+    "description": "Test ID generation fix",
+    "priority": "medium",
+    "completed": false,
+    "created_at": "2025-11-20T14:05:21.161273"
+  },
+  {
+    "id": 12,
+    "description": "Verification: Code actually ran!",
+    "priority": "high",
+    "completed": false,
+    "created_at": "2025-11-20T14:12:17.219987"
+  }
+]

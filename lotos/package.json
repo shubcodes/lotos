@@ -1,0 +1,42 @@
+{
+  "name": "lotos",
+  "version": "0.1.0",
+  "description": "LotOS MCP server providing isolated lots and runtimes.",
+  "type": "module",
+  "main": "dist/server/server.js",
+  "scripts": {
+    "dev": "tsx src/server/server.ts",
+    "start": "node dist/server/server.js",
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "migrate": "tsx src/infra/db.ts migrate"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "dependencies": {
+    "@arcadeai/arcadejs": "^1.14.0",
+    "@fastify/cors": "^9.0.1",
+    "@kubernetes/client-node": "^1.1.0",
+    "@modelcontextprotocol/sdk": "^1.22.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "mime": "^4.0.4",
+    "pino": "^9.3.1",
+    "uuid": "^11.0.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@vitest/coverage-v8": "^2.1.1",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "release_date": "2025-11-20T14:07:17.493832",
+  "files": [
+    "src/task_manager.py",
+    "test_task_manager.py",
+    "README.md",
+    "DEPLOYMENT.md",
+    "CHANGELOG.md",
+    "requirements.txt",
+    ".gitignore",
+    "install.sh",
+    "Makefile",
+    "package.json"
+  ],
+  "test_status": "passed",
+  "python_version": "3.8+",
+  "dependencies": []
+}

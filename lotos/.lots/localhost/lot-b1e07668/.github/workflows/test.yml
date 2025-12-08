@@ -1,0 +1,32 @@
+name: Tests
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    - name: Run tests
+      run: |
+        python test_task_manager.py
+    
+    - name: Test CLI
+      run: |
+        python src/task_manager.py --help
+        python src/task_manager.py add "CI test" --priority high
+        python src/task_manager.py list

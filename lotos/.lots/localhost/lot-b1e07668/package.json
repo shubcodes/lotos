@@ -1,0 +1,22 @@
+{
+  "name": "task-manager-cli",
+  "version": "1.0.0",
+  "description": "A simple command-line task management tool",
+  "main": "src/task_manager.py",
+  "scripts": {
+    "test": "python3 test_task_manager.py",
+    "start": "python3 src/task_manager.py",
+    "install": "bash install.sh"
+  },
+  "keywords": [
+    "cli",
+    "task-manager",
+    "productivity",
+    "todo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "python": ">=3.8"
+  }
+}
